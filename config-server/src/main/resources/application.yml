@@ -1,6 +1,10 @@
 spring:
-  profiles:
-    active: native
+  cloud:
+    config:
+      label: myService
+      server:
+        git:
+          uri: https://github.com/KomissarovSV/configuration
 
 server:
   port: 8888
