@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: anotherService
+  cloud:
+    config:
+      uri: http://localhost:8888
+      label: anotherService
