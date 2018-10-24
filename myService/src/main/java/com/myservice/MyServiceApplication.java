@@ -17,7 +17,7 @@ public class MyServiceApplication {
         SpringApplication.run(MyServiceApplication.class);
     }
 
-    @RequestMapping
+    @RequestMapping("field1")
     public String getField1(){
         return field1;
     }
