@@ -1,0 +1,5 @@
+rootProject.name = 'microservices'
+include 'config-server'
+include 'service-discovery'
+include 'myService'
+include 'another-service'
